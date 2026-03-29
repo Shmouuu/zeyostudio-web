@@ -10,7 +10,7 @@ export default function Home() {
       <footer className="pb-8 text-center font-serif text-sm tracking-widest text-white/40">
         Paris, 2026 ·{" "}
         <a
-          href="mailto:samuel@zeyostudio.com"
+          href="mailto:hello@zeyostudio.com"
           className="transition-all duration-300 hover:text-white"
         >
           Contact us
