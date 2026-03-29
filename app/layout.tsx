@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: "ZEYO STUDIO",
   description: "ZEYO STUDIO - Creative studio based in Paris",
   icons: {
-    icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%230a0a0c' width='100' height='100'/><text y='.9em' font-size='90' fill='white'>Z</text></svg>",
+    icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%23000000' width='100' height='100' rx='20' ry='20'/></svg>",
   },
 };
 
