@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZEYO STUDIO</title>
+    <meta name="description" content="ZEYO STUDIO - Creative studio based in Paris">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%230a0a0c' width='100' height='100'/><text y='.9em' font-size='90' fill='white'>Z</text></svg>">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        /* Dark Mesh Gradient Background */
+        .mesh-gradient {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background:
+                radial-gradient(at 40% 20%, rgba(30, 30, 40, 1) 0px, transparent 50%),
+                radial-gradient(at 80% 0%, rgba(20, 20, 30, 1) 0px, transparent 50%),
+                radial-gradient(at 0% 50%, rgba(25, 25, 35, 1) 0px, transparent 50%),
+                radial-gradient(at 80% 50%, rgba(35, 35, 45, 1) 0px, transparent 50%),
+                radial-gradient(at 0% 100%, rgba(20, 20, 28, 1) 0px, transparent 50%),
+                radial-gradient(at 80% 100%, rgba(28, 28, 38, 1) 0px, transparent 50%),
+                radial-gradient(at 50% 50%, rgba(40, 40, 50, 0.5) 0px, transparent 70%);
+            background-color: #0a0a0c;
+        }
+
+        /* Main Content */
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .logo {
+            font-size: clamp(2.5rem, 10vw, 5rem);
+            font-weight: 700;
+            letter-spacing: 0.15em;
+            color: #ffffff;
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+        }
+
+        .contact-link {
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            padding: 0.75rem 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 100px;
+            transition: all 0.3s ease;
+            letter-spacing: 0.05em;
+        }
+
+        .contact-link:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(255, 255, 255, 0.4);
+            color: #ffffff;
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        footer {
+            position: absolute;
+            bottom: 2rem;
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.4);
+            letter-spacing: 0.1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="mesh-gradient"></div>
+
+    <main>
+        <h1 class="logo">ZEYO STUDIO</h1>
+        <a href="mailto:samuel@zeyostudio.com" class="contact-link">Contact us</a>
+    </main>
+
+    <footer>
+        Paris 2026
+    </footer>
+</body>
+</html>
